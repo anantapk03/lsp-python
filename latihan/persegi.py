@@ -10,8 +10,3 @@ class Persegi (HitungBangunDatar) :
     
     def hitung_keliling(self) :
         print (self.get_sisi()*4)  
-    
-
-
-persegi = Persegi (4)
-persegi.hitung_luas()
