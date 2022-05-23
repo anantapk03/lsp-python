@@ -1,4 +1,4 @@
-from contoh.flying_bird import FlyingBird
+from flying_bird import FlyingBird
 
 class EagleBird(FlyingBird):
     
