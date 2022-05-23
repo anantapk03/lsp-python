@@ -1,6 +1,6 @@
-from flying_bird import FlyingBird
+from contoh.flying_bird import FlyingBird
 
-class EaglesBird(FlyingBird):
+class EagleBird(FlyingBird):
     
     def fly(self):
         print("Eagle fly to the sky")

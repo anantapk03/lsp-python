@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class FlayingBird(ABC):
+class FlyingBird(ABC):
     
     @abstractmethod
     def fly():
