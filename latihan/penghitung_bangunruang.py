@@ -3,10 +3,10 @@ from abc import ABC , abstractmethod
 class HitungBangunRuang(ABC):
     
     def __init__(self, rusuk):
-        self.rusuk = rusuk
+        self.__rusuk = rusuk
         
-    def get_rusuk(self, rusuk):
-        self.rusuk = rusuk
+    def get_rusuk(self):
+        return self.__rusuk
         
     @abstractmethod
     def hitung_keliling(self):
