@@ -4,5 +4,3 @@ class SwimmingBird :
     @abstractmethod
     def swim (self) :
         pass 
-    
-    
