@@ -1,6 +1,6 @@
 from abc import ABC , abstractmethod 
 
-class SwimmingBird :
+class SwimmingBird(ABC) :
     @abstractmethod
     def swim (self) :
         pass 
